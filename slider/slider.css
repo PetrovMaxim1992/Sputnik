@@ -1,0 +1,44 @@
+:root {
+    --On:red;
+    --Off:gray;
+}
+
+.slider__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.slider__switcher {
+    position: absolute;
+    display: flex;
+    gap: 18px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__button {
+    margin:0;
+    padding:0;
+    border:none;
+    cursor:pointer;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(to right, var(--Off), var(--On) 50%);
+    background-size: 500% 10%;
+    transition: all 1s ease;
+}
+
+.slider__button.on {
+    margin:0;
+    padding:0;
+    border:none;
+    cursor:pointer;
+    width: 20px;
+    height: 20px;
+    transition: all 1s ease;
+    background-position: right;
+}

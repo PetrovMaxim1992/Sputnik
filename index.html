@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Sputnik/css/fonts.css">
     <link rel="stylesheet" href="../Sputnik/css/slick.css">
     <link rel="stylesheet" href="../Sputnik/css/style.css">
+    <link rel="stylesheet" href="../Sputnik/slider/slider.css">
 </head>
 <body>
 <header class="header">
@@ -37,12 +38,22 @@
 </header>
 <main class="container">
     <section class="section">
-        <div class="section__title">
-            <h2>Новый взгляд</h2>
-            <span>на привычные вещи</span>
-            <a href="#">Посмотреть</a>
+        <div class="slider">
+            <div class="slider__container">
+                <div class="section__title">
+                    <h2>Новый взгляд</h2>
+                    <p>на привычные вещи</p>
+                    <a href="#">Посмотреть</a>
+                </div>
+                <img src="../Sputnik/images/slider/slide-1.jpg" alt="">
+            </div>
+            <div class="slider__switcher" id="slider">
+                <button class="slider__button" id="firstButton"></button>
+                <button class="slider__button" id="secondButton"></button>
+                <button class="slider__button" id="thirdButton"></button>
+            </div>
         </div>
-        <img src="../Sputnik/images/slider/slide-1.jpg" alt="">
     </section>
 </main>
+<script src="../Sputnik/slider/slider.js"></script>
 </body>
