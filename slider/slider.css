@@ -3,16 +3,26 @@
     --Off:gray;
 }
 
+.slider {
+    /*bottom: 60px;*/
+    height: 415px;
+    display: flex;
+    position: relative;
+}
+.slider__container {
+    width: 1140px;
+}
+
 .slider__container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     position: relative;
-
 }
 
 .slider__switcher {
     position: absolute;
+    bottom: 0;
     display: flex;
     gap: 18px;
     height: 20px;
